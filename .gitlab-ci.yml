@@ -1,0 +1,8 @@
+image: cypress/base:12
+stages: 
+  -test
+test: 
+  stage: test
+  script:
+    -npm install
+    -npx cypress run --record --key 716144b4-d026-411c-9798-c36d17127830
